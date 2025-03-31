@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82355e52-5701-4162-b4a0-189a1a177a9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/db/exceptions/InvalidEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/HumanValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/Human.java" afterDir="false" />
-    </list>
+    <list default="true" id="82355e52-5701-4162-b4a0-189a1a177a9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
