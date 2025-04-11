@@ -18,10 +18,9 @@ public class Database {
             validator.validate(e);
 
         if(e instanceof Trackable){
-            Trackable trackable = (Trackable) e;
             Date currentDate = new Date();
-            trackable.setCreationDate(currentDate);
-            trackable.setLastModificationDate(currentDate);
+            ((Trackable) e).setCreationDate(currentDate);
+            ((Trackable) e).setLastModificationDate(currentDate);
         }
 
         e.id = nextId++;
@@ -72,5 +71,13 @@ public class Database {
             throw new IllegalArgumentException("Validator already exists for entity code: " + entityCode);
         }
         validators.put(entityCode, validator);
+    }
+
+    public static ArrayList<Entity> getAll(int entityCode) {
+        ArrayList<Entity> matchingEntities = new ArrayList<>();
+        for(Entity entity : entities)
+            if(entity.getEntityCode() == entityCode)
+                matchingEntities.add(entity.copy());
+        return matchingEntities;
     }
 }
